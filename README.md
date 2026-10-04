@@ -36,7 +36,7 @@ maldives-islands-dataset/
 
 | Dataset | File | Year | Records | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Inhabited Islands Master** | [`inhabited_islands_master.csv`](inhabited_islands_master.csv) | **2026** | **188** | **Authoritative Inhabited Registry.** Islands strictly governed by Island and City Councils. Harmonized to 2026 LGA official spellings, with council names, council types, seats, coordinates, and dual land areas. |
+| **Inhabited Islands Master** | [`inhabited_islands_master.csv`](inhabited_islands_master.csv) | **2026** | **188** | **Authoritative Inhabited Registry.** Islands strictly governed by Island and City Councils. Harmonized to 2026 LGA official spellings, with council names, council types, coordinates, and dual land areas. |
 | **Resorts Master** | [`resorts_master.csv`](resorts_master.csv) | **2026/2021** | **373** | **Dedicated Resorts Directory.** All operational tourist resorts (**177 verified operating** from Ministry of Tourism, Oct 2026) and proposed pipeline developments with trade names, room/bed counts, operators, and coordinates. |
 | **Uninhabited Islands Master** | [`uninhabited_islands_master.csv`](uninhabited_islands_master.csv) | **2021/2008** | **1,016** | **Uninhabited & Sandbanks Registry.** Agricultural leases, industrial islands, sandbanks, and reefs, including historically depopulated islands. |
 | **Unified Master Dataset** | [`maldives_islands_master.csv`](maldives_islands_master.csv) | **2026** | **1,577** | **All-in-One Master.** Complete flat master dataset combining the Official Atlas, MLSA OneMap, 2026 LGA Councils, and 2026 Ministry of Tourism operational data. |
@@ -46,7 +46,7 @@ maldives-islands-dataset/
 | Dataset | File | Year | Records | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **MoT Registered Resorts** | [`reference/mot_resorts_oct_2026.csv`](reference/mot_resorts_oct_2026.csv) | **2026 (Oct)** | **177** | Official registered operational facilities directory from the Ministry of Tourism. Cleaned to single-line RFC 4180 CSV standard with rooms, beds, operator, and owner information. |
-| **LGA Councils Directory** | [`reference/lga_councils_2026.csv`](reference/lga_councils_2026.csv) | **2026** | **183** | Official administrative list of all 183 Island and City Councils from the Local Government Authority (LGA), with councilor seat allocations. Stripped of personal data. |
+| **LGA Councils Directory** | [`reference/lga_councils_2026.csv`](reference/lga_councils_2026.csv) | **2026** | **183** | Official administrative list of all 183 Island and City Councils from the Local Government Authority (LGA). Stripped of personal data. |
 | **OneMap MLSA Dataset** | [`reference/onemap_islands_2021.csv`](reference/onemap_islands_2021.csv) | **2021** | **1,560** | Direct public cadastral GIS dataset from the Maldives Land and Survey Authority (MLSA) with official Land Feature Codes (`FCODE`). |
 | **Atlas Island Index** | [`reference/islands_index_2008.csv`](reference/islands_index_2008.csv) | **2008** | **1,037** | Complete gazetteer of all surveyed islands from the *Official Atlas of the Maldives* with map grid references (`Map_Ref`), Thaana script, and linked `FCODE`. |
 | **Resorts Directory (Atlas)** | [`reference/resorts_by_trade_name.csv`](reference/resorts_by_trade_name.csv) | **2008** | **98** | Historic tourist resorts cataloged by commercial brand/trade name from the Official Atlas. |
@@ -65,7 +65,7 @@ To make analysis straightforward without requiring heavy filtering, the master d
 * **Administrative Groupings:**
   * **City Councils:** Malé City (Malé, Villimalé, Hulhumalé), Addu City (Hithadhoo, Maradhoo, Maradhoo-Feydhoo, Feydhoo), Fuvahmulah City, Kulhudhuffushi City, and Thinadhoo City.
   * **Island Councils:** 176 individual island councils plus the two distinct Addu constituency councils (`S. Addu Hulhudhoo Council` and `S. Addu Meedhoo Council`).
-* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Council_Name`, `Council_Type`, `Councilor_Seats`, `Is_Capital`, `Area_Ha_Atlas`, `Area_Ha_GIS`, `Map_Ref`, `Lat_DMS`, `Lon_DMS`, `Lat_DD`, `Lon_DD`, `Island_Name_Atlas`, `Island_Name_OneMap`.
+* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Council_Name`, `Council_Type`, `Is_Capital`, `Area_Ha_Atlas`, `Area_Ha_GIS`, `Map_Ref`, `Lat_DMS`, `Lon_DMS`, `Lat_DD`, `Lon_DD`, `Island_Name_Atlas`, `Island_Name_OneMap`.
 
 ### B. Resorts Master (`resorts_master.csv`)
 * **Total Records:** **373 resort islands**
@@ -130,7 +130,7 @@ Extracted and cleaned from the **2026 Local Government Authority (LGA)** council
   * **5 City Councils:** Malé City, Addu City, Fuvammulah City, Kulhudhuffushi City, Thinadhoo City.
   * **178 Island Councils:** Standard administrative atoll councils + Addu constituency councils.
 * **Privacy & Cleanliness:** Councilor personal data (names, contact numbers, political party affiliations) has been completely removed to preserve privacy and geographic utility.
-* **Fields:** `Atoll`, `Council_Name`, `Council_Type`, `Island_Name`, `Councilor_Seats`, `Source_URL`, `Updated_Year`.
+* **Fields:** `Atoll`, `Council_Name`, `Council_Type`, `Island_Name`, `Source_URL`, `Updated_Year`.
 
 ---
 
@@ -246,7 +246,7 @@ This repository synthesizes data from four primary official government publicati
 
 2. **Local Government Authority (LGA) Maldives (2026)**
    * **Portal:** [https://www.lga.gov.mv/en/councils](https://www.lga.gov.mv/en/councils)
-   * **Scope:** 2026 official register of all 183 Island Councils and City Councils, active administrative divisions, and councilor allocations under the Decentralization Act.
+   * **Scope:** 2026 official register of all 183 Island Councils and City Councils, active administrative divisions, and jurisdictions under the Decentralization Act.
 
 3. **OneMap Maldives (2021)**
    * **Authority:** Maldives Land and Survey Authority (MLSA), Ministry of National Planning, Housing and Infrastructure.
