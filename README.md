@@ -123,7 +123,7 @@ Extracted and cleaned from the **2026 Local Government Authority (LGA)** council
 
 ## 4. Latin Spelling Harmonization (2026 LGA Standard)
 
-Historical datasets and older printed atlases often relied on inconsistent phonetic romanization (such as apostrophes to represent nasalization like `'b` or `'d`). The 2026 update modernizes primary `Island_Name` across inhabited records while retaining the historical names in `Island_Name_Atlas` and `Island_Name_OneMap`.
+Historical datasets and older printed atlases often relied on inconsistent phonetic romanization (such as apostrophes to represent nasalization like `'b` or `'d`). The 2026 update modernizes primary `Island_Name` across inhabited records to the official LGA standard, while original historical spellings remain preserved in the `reference/` gazetteers.
 
 | Atoll | Historical Atlas / OneMap | 2026 LGA Official Standard | Council Name |
 | :--- | :--- | :--- | :--- |
@@ -171,15 +171,19 @@ Historical datasets and older printed atlases often relied on inconsistent phone
 
 ### C. Resorts Directory by Trade Name (`reference/resorts_by_trade_name.csv`)
 * **Total Records:** **98 resort entries**
-* Links commercial brand names (e.g. *Adaaran Club Bathala*, *Kurumba Maldives*) to geographical island names and coordinates.
+* Links commercial brand names (e.g. *Adaaran Club Bathala*, *Kurumba Maldives*) from the 2008 Atlas to geographical island names and coordinates.
+* **Fields:** `Atl`, `Trade_Name`, `Island_Name`, `Category`, `Area_Ha`, `Map_Ref`, `Lat`, `Lon`, `Island_Dhivehi`, `Atl_Dhivehi`.
 
 ### D. Atoll Names & Administrative Subdivisions (`reference/atoll_names.csv`)
 * **Total Records:** **21 entries** (20 administrative atolls + capital city Malé).
 * Details administrative codes, colloquial short names, official administrative designations, and capital islands.
+* **Fields:** `Atl`, `English_Name`, `Official_Name`, `Atoll_Short`, `Capital`, `Atl_Dhivehi`, `Capital_Dhivehi`, `Official_Name_Dhivehi`, `Notes`.
 
 ---
 
-## 6. Category Code Legend
+## 6. Historical 2008 Atlas Category Code Legend
+
+Used in historical reference files (`reference/islands_index_2008.csv` and `reference/resorts_by_trade_name.csv`):
 
 | Code | Meaning |
 | :--- | :--- |
