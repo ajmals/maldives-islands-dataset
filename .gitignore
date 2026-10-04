@@ -3,6 +3,13 @@ scripts/
 ocr_results/
 scanned_images/
 
+# Local raw data & spreadsheet files
+councilors.xlsx
+reference/councilors.xlsx
+*.xlsx
+*.xls
+.~lock.*#
+
 # macOS system files
 .DS_Store
 .AppleDouble
