@@ -1,99 +1,99 @@
-﻿Page,Atl,Trade_Name,Island_Name,Category,Area_Ha,Map_Ref,Lat,Lon,Island_Dhivehi,Atl_Dhivehi
-60,AA,Adaaran Club Bathala,Bathalaa,R,3.1,12.E5,"4°04'13""N","72°56'43""E",ބަތަލާ,އއ
-60,K,Adaaran Club Rannalhi,Rannaalhi,R,4.9,11.B6,"3°54'11""N","73°21'27""E",ރަންނާޅި,ކ
-60,K,Adaaran Select Hudhuranfushi,Lhohifushi,R,19.3,10.E6,"4°21'02""N","73°37'05""E",ޅޮހިފުށި,ކ
-60,R,Adaaran Select Meedhupparu,Meedhupparu,R,17.9,6.D7,"5°27'21""N","72°58'47""E",މީދުއްޕަރު,ރ
-60,V,Alimatha Aquatic Resort,Alimathaa,R,6.9,14.C3,"3°35'37""N","73°29'52""E",އަލިމަތާ,ވ
-60,K,Anantara Resort and Spa Maldives,Dhigufinolhu,R,4.8,11.D4,"3°58'20""N","73°30'08""E",ދިގުފިނޮޅު,ކ
-60,ADh,Angaaga Island Resort and Spa,Angaagau,R,4.4,13.C5,"3°39'09""N","72°49'18""E",އަންގާގައު,އދ
-60,K,Angsana Resort & Spa Maldives Ihuru,Ihuru,R,3.4,10.B6,"4°18'24""N","73°24'57""E",އިހުރު,ކ
-60,Dh,Angsana Resort and Spa Maldives - Velavaru,Velavaru,R,7.2,17.E2,"2°58'47""N","73°00'56""E",ވެލާވަރު,ދ
-60,K,Asdhu Sun Island,Asdhoo,R,3.6,10.E4,"4°27'58""N","73°39'40""E",އަސްދޫ,ކ
-60,ADh,Athurugau Island Resort,Athurugau,R,3.1,13.C1,"3°53'13""N","72°48'58""E",އަތުރުގައު,އދ
-60,K,Bandos Island Resort and Spa,Boduban'dos,R,19.6,10.C7,"4°16'10""N","73°29'29""E",ބޮޑުބަންޑޮސް,ކ
-60,K,Banyan Tree Maldives Vabbinfaru,Vabbinfaru,R,3.9,10.B6,"4°18'35""N","73°25'26""E",ވައްބިންފަރު,ކ
-60,K,Baros Holiday Resort,Baros,R,4.5,10.B6,"4°17'05""N","73°25'38""E",ބަރޮސް,ކ
-60,K,Biyaadhoo Island Resort,Biyaadhoo,R,10.2,11.D5,"3°55'19""N","73°27'23""E",ބިޔާދޫ,ކ
-60,M,Chaaya Lagoon Hakuraa Huraa,Hakuraahuraa,R,5.4,15.D6,"2°51'14""N","73°32'19""E",ހަކުރާހުރާ,މ
-60,HA,Cinnamon Island Alidhoo,Alidhoo,R,17.2,1.E5,"6°50'55""N","73°09'07""E",އަލިދޫ,ހއ
-60,K,"Club Faru, Farukolhufushi",Farukolhufushi,R,12.6,10.D7,"4°13'51""N","73°32'38""E",ފަރުކޮޅުފުށި,ކ
-60,K,Club Med Kanifinolhu,Kanifinolhu,R,14.5,10.E6,"4°20'36""N","73°36'29""E",ކަނިފިނޮޅު,ކ
-60,K,Coco Palm Boduhithi,Boduhithi,R,6.5,10.B5,"4°25'49""N","73°23'04""E",ބޮޑުހިތި,ކ
-60,B,Coco Palm Dhuni Kolhu,Dhunikolhu,R,14.7,7.B5,"5°02'23""N","72°52'53""E",ދުނިކޮޅު,ބ
-60,K,Coco Palm Kudahithi,Kudahithi,R,3.0>,10.B5,"4°25'01""N","73°22'48""E",ކުޑަހިތި,ކ
-60,K,Cocoa Island,Makunufushi,R,3.0>,11.D5,"3°55'04""N","73°28'11""E",މަކުނުފުށި,ކ
-60,ADh,Conrad Maldives Rangali Island,Rangaleefinolhu,R,6.5,13.A5,"3°36'58""N","72°42'59""E",ރަންގަލީފިނޮޅު,އދ
-60,ADh,Conrad Maldives Rangali Island,Rangali,R,9.2,13.B5,"3°37'04""N","72°43'23""E",ރަންގަލި,އދ
-60,V,Dhiggiri Tourist Resort,Dhiggiri,R,3.0>,12.C3,"3°38'42""N","73°29'14""E",ދިއްގިރި,ވ
-60,AA,Dhoni Migili,Mushimasmigili,YM,3.2,12.D7,"3°57'32""N","72°54'47""E",މުށިމަސްމިގިލި,އއ
-60,K,Dhonveli Beach and Spa Resort,Kanooiyhuraa,R,7.6,10.D6,"4°19'06""N","73°35'30""E",ކަނޫއިހުރާ,ކ
-60,K,Dream Island Maldives,Villivaru,R,5.4,11.D5,"3°54'51""N","73°27'20""E",ވިލިވަރު,ކ
-60,AA,Ellaidhoo Tourist Resort,Ellaidhoo,R,5.9,12.E6,"4°00'22""N","72°56'56""E",އެއްލައިދޫ,އއ
-60,K,Embudhu Village,En'boodhoo,R,5.3,11.E2,"4°05'02""N","73°30'43""E",އެނބޫދޫ,ކ
-60,K,Eriyadhoo Island Resort,Eriadhoo,R,3.1,10.B3,"4°35'24""N","73°24'52""E",އެރިޔަދޫ,ކ
-60,K,Fihalhohi Island Resort,Fihaalhohi,R,8.9,11.B6,"3°52'38""N","73°22'01""E",ފިހާޅޮހި,ކ
-60,F,Filitheyo Island Resort,Filitheyo,R,21.3,16.F4,"3°12'47""N","73°02'13""E",ފިލިތެޔޮ,ފ
-60,K,Four Seasons Resort Maldives at Kuda Huraa,Kudahuraa,R,7.3,10.D6,"4°19'41""N","73°35'51""E",ކުޑަހުރާ,ކ
-60,B,Four Seasons Resort Maldives at Landaa Giraavaru,Lan'daagiraavaru,R,20.0,7.E2,"5°17'10""N","73°06'43""E",ލަންޑާގިރާވަރު,ބ
-60,K,Full Moon Beach Resort,Furanafushi,R,11.8,10.D7,"4°14'59""N","73°32'44""E",ފުރަނަފުށި,ކ
-60,K,Fun Island Resort,Bodufinolhu,R,10.8,11.D6,"3°51'27""N","73°27'23""E",ބޮޑުފިނޮޅު,ކ
-60,AA,Gangehi Island Resort,Gangehi,R,3.0>,12.B3,"4°13'12""N","72°45'18""E",ގަންގެހި,އއ
-60,K,Gasfinolhu Island Resort,Gasfinolhu,R,3.4,10.E6,"4°21'40""N","73°37'34""E",ގަސްފިނޮޅު,ކ
-60,K,Giraavaru Tourist Resort,Giraavaru,R,3.0,10.B7,"4°12'01""N","73°24'46""E",ގިރާވަރު,ކ
-60,AA,Halaveli Holiday Village,Halaveli,R,4.7,12.E6,"4°02'17""N","72°55'09""E",ހަލަވެލި,އއ
-60,K,Helengeli Island Resort,Helen'geli,R,7.7,10.D2,"4°38'04""N","73°33'48""E",ހެލެނގިލި,ކ
-60,S,Herethere Island Resort,Herethere,R,81.4,22.D6,"0°36'59""S","73°13'27""E",ހެރެތެރެ,ސ
-60,ADh,Holiday Island,Dhiffushi,R,13.1,13.C8,"3°28'30""N","72°49'29""E",ދިއްފުށި,އދ
-60,GA,Huvadhumafushi Maldives,Funamauddaa,PR,10.9,20.B5,"0°32'01""N","73°11'24""E",ފުނަމައުއްޑާ,ގއ
-61,K,Huvafenfushi,Nakaiychaafushi,R,4.3,10.B5,"4°22'06""N","73°22'12""E",ނަކައިޗާފުށި,ކ
-61,N,Irufushi Beach & Spa Resort,Medhafushi,PR,20.8,5.D6,"5°44'39""N","73°19'26""E",މެދަފުށި,ނ
-61,HA,Island Hideaway at Dhonakulhi Maldives Spa Resort and Marina,Dhonakulhi,YM,33.0,1.D5,"6°50'35""N","73°03'05""E",ދޮނަކުޅި,ހއ
-61,K,Island of Bolifushi,Bolifushi,R,3.0>,11.C2,"4°05'45""N","73°24'05""E",ބޮލިފުށި,ކ
-61,K,Kandooma Tourist Resort,Kan'doomaafushi,R,14.8,11.D6,"3°54'12""N","73°28'24""E",ކަނޑޫމާފުށި,ކ
-61,B,Kihaadhuffaru Resort,Kihaadhuffaru,R,13.1,7.E3,"5°11'27""N","73°07'56""E",ކިހާދުއްފަރު,ބ
-61,Lh,Komandoo Maldive Island Resort,Komandoo,R,4.3,8.B3,"5°29'36""N","73°25'27""E",ކޮމަންޑޫ,ޅ
-61,ADh,Kudarah Island Resort,Kudarah,R,3.6,13.D6,"3°34'26""N","72°54'38""E",ކުޑަރަށް,އދ
-61,AA,Kuramathi Tourist Resort,Kuramathi,R,31.0,12.F2,"4°15'33""N","72°58'45""E",ކުރަމަތި,އއ
-61,Lh,Kuredhdhu Island Resort,Kurehdhoo,R,39.1,8.C2,"5°32'59""N","73°27'57""E",ކުރެއްދޫ,ޅ
-61,K,Kurumba Maldives,Vihamanaafushi,R,13.7,10.D7,"4°13'36""N","73°31'11""E",ވިހަމަނާފުށި,ކ
-61,K,Laguna Maldives,Velassaru,R,8.3,11.C2,"4°07'17""N","73°26'13""E",ވެލާއްސަރު,ކ
-61,ADh,Lily Beach Resort,Huvahendhoo,R,6.6,13.E5,"3°39'13""N","72°57'13""E",ހުވަހެންދޫ,އދ
-61,Sh,Maakanaa,Van'garu,PR,9.8,4.E6,"6°05'14""N","73°12'17""E",ވަންގަރު,ށ
-61,AA,Maayafushi Tourist Resort,Maayafushi,R,3.2,12.D5,"4°04'25""N","72°53'15""E",މާޔާފުށި,އއ
-61,ADh,Machchafushi Island Resort,Machchafushi,R,4.2,13.D6,"3°35'37""N","72°53'00""E",މައްޗަފުށި,އދ
-61,AA,Madoogali Resort,Madoogali,R,7.1,12.B5,"4°05'45""N","72°45'10""E",މަޑޫގަލި,އއ
-61,K,Makunudhoo Island,Makunudhoo,R,3.2,10.B3,"4°32'33""N","73°24'20""E",މަކުނުދޫ,ކ
-61,M,Medhufushi Island Resort,Medhufushi,R,10.3,15.E6,"2°53'10""N","73°34'32""E",މެދުފުށި,މ
-61,K,Meeru Island Resort,Meerufenfushi,R,33.5,10.F4,"4°27'13""N","73°43'00""E",މީރުފެންފުށި,ކ
-61,ADh,Mirihi Island Resort,Mirihi,R,3.5,13.B5,"3°37'09""N","72°46'49""E",މީރިހި,އދ
-61,ADh,Moofushi Island Resort,Moofushi,R,3.7,13.B1,"3°53'05""N","72°43'40""E",މޫފުށި,އދ
-61,K,Naladhu,Veligan'duhuraa,R,3.0>,11.D4,"3°58'17""N","73°30'23""E",ވެލިގަނޑުހުރާ,ކ
-61,K,Naladhu -waterbangalows,Boduhuraa,R,4.3,11.D5,"3°58'02""N","73°30'19""E",ބޮޑުހުރާ,ކ
-61,AA,Nika Island Resort,Kudafolhudhoo,R,5.1,12.B4,"4°10'52""N","72°46'01""E",ކުޑަފޮޅުދޫ,އއ
-61,K,Olhuveli Beach and Spa Resort,Olhuveli,R,6.2,11.D7,"3°51'01""N","73°27'18""E",އޮޅުވެލި,ކ
-61,Lh,"One and Only Kanuhuraa, Maldives",Kanuhuraa,R,14.5,8.D2,"5°31'57""N","73°30'23""E",ކަނުހުރާ,ޅ
-61,K,One&Only Maldives at Reethi Rah,Medhufinolhu,R,42.7,10.B4,"4°30'50""N","73°22'09""E",މެދުފިނޮޅު,ކ
-61,Lh,Palm Beach Island,Madhiriguraidhoo,R,24.8,8.D3,"5°28'09""N","73°33'36""E",މަދިރިގުރައިދޫ,ޅ
-61,K,Paradise Island Resort and Spa,Lankanfinolhu,R,23.9,10.D6,"4°17'06""N","73°33'13""E",ލަންކަންފިނޮޅު,ކ
-61,ADh,Ranveli Village,Vilin'gilivaru,R,3.0,13.E5,"3°37'08""N","72°57'18""E",ވިލިނގިލިވަރު,އދ
-61,F,Reethi Beach Resort,Fonimagoodhoo,R,10.4,7.F3,"5°15'17""N","73°09'48""E",ފޮނިމަގޫދޫ,ބ
-61,K,Rihiveli Beach Resort,Mahaana elhihuraa,R,4.2,11.C7,"3°48'43""N","73°24'41""E",މަހާނައެޅިހުރާ,ކ
-61,B,Royal Island Resort and Spa,Horubadhoo,R,18.9,7.D4,"5°09'47""N","73°03'12""E",ހޮރުބަދޫ,ބ
-61,B,Soneva Fushi Resort and Six Senses Spa,Kunfunadhoo,R,43.4,7.E4,"5°06'44""N","73°04'38""E",ކުންފުނަދޫ,ބ
-61,K,Soneva Gili Resort and Spa,Lankanfushi,R,8.6,10.D6,"4°17'41""N","73°33'29""E",ލަންކަންފުށި,ކ
-61,K,Summer Island Village,Ziyaaraiyfushi,R,5.0,10.B4,"4°31'59""N","73°22'20""E",ޒިޔާރަތްފުށި,ކ
-61,ADh,Sun Island Resort and Spa,Nalaguraidhoo,R,54.1,13.C7,"3°29'00""N","72°48'05""E",ނަލަގުރައިދޫ,އދ
-61,K,Taj Coral Reef Resort,Hen'badhoo,R,3.5,10.B4,"4°28'53""N","73°23'35""E",ހެންބަދޫ,ކ
-61,K,Taj Exotica and Spa Maldives,En'boodhoofinolhu,R,4.8,11.E2,"4°06'11""N","73°31'31""E",އެނބޫދޫފިނޮޅު,ކ
-61,HA,The Beach House at Manafaru Maldives,Manafaru,R,15.0,1.C3,"6°59'49""N","72°56'23""E",މަނަފަރު,ހއ
-61,K,Thulhaagiri Island Resort,Thulhaagiri,R,3.3,10.C6,"4°18'41""N","73°29'14""E",ތުޅާގިރި,ކ
-61,ADh,Thundufushi Island Resort,Thun'dufushi,R,4.0,13.B3,"3°47'10""N","72°43'51""E",ތުންޑުފުށި,އދ
-61,ADh,Twin Island Resort,Maafushivaru,R,3.0,13.D6,"3°36'28""N","72°54'01""E",މާފުށިވަރު,އދ
-61,K,Vadoo Island Resort,Vaadhoo,R,3.0>,11.D2,"4°07'26""N","73°27'26""E",ވާދޫ,ކ
-61,ADh,Vakarufalhi Island Resort,Vakarufalhi,R,5.2,13.D6,"3°34'42""N","72°54'07""E",ވަކަރުފަޅި,އދ
-61,AA,Velidhoo Island Resort,Velidhoo,R,9.2,12.C3,"4°11'41""N","72°49'06""E",ވެލިދޫ,އއ
-61,AA,Veligandu Island,Veligan'du,R,5.3,12.F2,"4°17'56""N","73°00'41""E",ވެލިގަނޑު,އއ
-61,ADh,Vilamendhoo Island Resort,Vilamendhoo,R,12.8,13.D5,"3°38'01""N","72°57'32""E",ވިލަމެންދޫ,އދ
-61,Dh,Vilu Reef Beach and Spa,Meedhuffushi,R,6.6,17.E1,"3°00'12""N","73°00'02""E",މީދުއްފުށި,ދ
-61,AA,W. Retreat and Spa Maldives,Fesdhoo,R,4.8,12.C6,"4°00'24""N","72°48'39""E",ފެސްދޫ,އއ
-61,ADh,White Sands Resort and Spa,Dhidhdhoofinolhu,R,16.0,13.D7,"3°29'54""N","72°53'46""E",ދިއްދޫފިނޮޅު,އދ
+﻿Atl,Trade_Name,Island_Name,Category,Area_Ha,Map_Ref,Lat,Lon,Island_Dhivehi,Atl_Dhivehi
+AA,Adaaran Club Bathala,Bathalaa,R,3.1,12.E5,"4°04'13""N","72°56'43""E",ބަތަލާ,އއ
+K,Adaaran Club Rannalhi,Rannaalhi,R,4.9,11.B6,"3°54'11""N","73°21'27""E",ރަންނާޅި,ކ
+K,Adaaran Select Hudhuranfushi,Lhohifushi,R,19.3,10.E6,"4°21'02""N","73°37'05""E",ޅޮހިފުށި,ކ
+R,Adaaran Select Meedhupparu,Meedhupparu,R,17.9,6.D7,"5°27'21""N","72°58'47""E",މީދުއްޕަރު,ރ
+V,Alimatha Aquatic Resort,Alimathaa,R,6.9,14.C3,"3°35'37""N","73°29'52""E",އަލިމަތާ,ވ
+K,Anantara Resort and Spa Maldives,Dhigufinolhu,R,4.8,11.D4,"3°58'20""N","73°30'08""E",ދިގުފިނޮޅު,ކ
+ADh,Angaaga Island Resort and Spa,Angaagau,R,4.4,13.C5,"3°39'09""N","72°49'18""E",އަންގާގައު,އދ
+K,Angsana Resort & Spa Maldives Ihuru,Ihuru,R,3.4,10.B6,"4°18'24""N","73°24'57""E",އިހުރު,ކ
+Dh,Angsana Resort and Spa Maldives - Velavaru,Velavaru,R,7.2,17.E2,"2°58'47""N","73°00'56""E",ވެލާވަރު,ދ
+K,Asdhu Sun Island,Asdhoo,R,3.6,10.E4,"4°27'58""N","73°39'40""E",އަސްދޫ,ކ
+ADh,Athurugau Island Resort,Athurugau,R,3.1,13.C1,"3°53'13""N","72°48'58""E",އަތުރުގައު,އދ
+K,Bandos Island Resort and Spa,Boduban'dos,R,19.6,10.C7,"4°16'10""N","73°29'29""E",ބޮޑުބަންޑޮސް,ކ
+K,Banyan Tree Maldives Vabbinfaru,Vabbinfaru,R,3.9,10.B6,"4°18'35""N","73°25'26""E",ވައްބިންފަރު,ކ
+K,Baros Holiday Resort,Baros,R,4.5,10.B6,"4°17'05""N","73°25'38""E",ބަރޮސް,ކ
+K,Biyaadhoo Island Resort,Biyaadhoo,R,10.2,11.D5,"3°55'19""N","73°27'23""E",ބިޔާދޫ,ކ
+M,Chaaya Lagoon Hakuraa Huraa,Hakuraahuraa,R,5.4,15.D6,"2°51'14""N","73°32'19""E",ހަކުރާހުރާ,މ
+HA,Cinnamon Island Alidhoo,Alidhoo,R,17.2,1.E5,"6°50'55""N","73°09'07""E",އަލިދޫ,ހއ
+K,"Club Faru, Farukolhufushi",Farukolhufushi,R,12.6,10.D7,"4°13'51""N","73°32'38""E",ފަރުކޮޅުފުށި,ކ
+K,Club Med Kanifinolhu,Kanifinolhu,R,14.5,10.E6,"4°20'36""N","73°36'29""E",ކަނިފިނޮޅު,ކ
+K,Coco Palm Boduhithi,Boduhithi,R,6.5,10.B5,"4°25'49""N","73°23'04""E",ބޮޑުހިތި,ކ
+B,Coco Palm Dhuni Kolhu,Dhunikolhu,R,14.7,7.B5,"5°02'23""N","72°52'53""E",ދުނިކޮޅު,ބ
+K,Coco Palm Kudahithi,Kudahithi,R,3.0>,10.B5,"4°25'01""N","73°22'48""E",ކުޑަހިތި,ކ
+K,Cocoa Island,Makunufushi,R,3.0>,11.D5,"3°55'04""N","73°28'11""E",މަކުނުފުށި,ކ
+ADh,Conrad Maldives Rangali Island,Rangaleefinolhu,R,6.5,13.A5,"3°36'58""N","72°42'59""E",ރަންގަލީފިނޮޅު,އދ
+ADh,Conrad Maldives Rangali Island,Rangali,R,9.2,13.B5,"3°37'04""N","72°43'23""E",ރަންގަލި,އދ
+V,Dhiggiri Tourist Resort,Dhiggiri,R,3.0>,12.C3,"3°38'42""N","73°29'14""E",ދިއްގިރި,ވ
+AA,Dhoni Migili,Mushimasmigili,YM,3.2,12.D7,"3°57'32""N","72°54'47""E",މުށިމަސްމިގިލި,އއ
+K,Dhonveli Beach and Spa Resort,Kanooiyhuraa,R,7.6,10.D6,"4°19'06""N","73°35'30""E",ކަނޫއިހުރާ,ކ
+K,Dream Island Maldives,Villivaru,R,5.4,11.D5,"3°54'51""N","73°27'20""E",ވިލިވަރު,ކ
+AA,Ellaidhoo Tourist Resort,Ellaidhoo,R,5.9,12.E6,"4°00'22""N","72°56'56""E",އެއްލައިދޫ,އއ
+K,Embudhu Village,En'boodhoo,R,5.3,11.E2,"4°05'02""N","73°30'43""E",އެނބޫދޫ,ކ
+K,Eriyadhoo Island Resort,Eriadhoo,R,3.1,10.B3,"4°35'24""N","73°24'52""E",އެރިޔަދޫ,ކ
+K,Fihalhohi Island Resort,Fihaalhohi,R,8.9,11.B6,"3°52'38""N","73°22'01""E",ފިހާޅޮހި,ކ
+F,Filitheyo Island Resort,Filitheyo,R,21.3,16.F4,"3°12'47""N","73°02'13""E",ފިލިތެޔޮ,ފ
+K,Four Seasons Resort Maldives at Kuda Huraa,Kudahuraa,R,7.3,10.D6,"4°19'41""N","73°35'51""E",ކުޑަހުރާ,ކ
+B,Four Seasons Resort Maldives at Landaa Giraavaru,Lan'daagiraavaru,R,20.0,7.E2,"5°17'10""N","73°06'43""E",ލަންޑާގިރާވަރު,ބ
+K,Full Moon Beach Resort,Furanafushi,R,11.8,10.D7,"4°14'59""N","73°32'44""E",ފުރަނަފުށި,ކ
+K,Fun Island Resort,Bodufinolhu,R,10.8,11.D6,"3°51'27""N","73°27'23""E",ބޮޑުފިނޮޅު,ކ
+AA,Gangehi Island Resort,Gangehi,R,3.0>,12.B3,"4°13'12""N","72°45'18""E",ގަންގެހި,އއ
+K,Gasfinolhu Island Resort,Gasfinolhu,R,3.4,10.E6,"4°21'40""N","73°37'34""E",ގަސްފިނޮޅު,ކ
+K,Giraavaru Tourist Resort,Giraavaru,R,3.0,10.B7,"4°12'01""N","73°24'46""E",ގިރާވަރު,ކ
+AA,Halaveli Holiday Village,Halaveli,R,4.7,12.E6,"4°02'17""N","72°55'09""E",ހަލަވެލި,އއ
+K,Helengeli Island Resort,Helen'geli,R,7.7,10.D2,"4°38'04""N","73°33'48""E",ހެލެނގިލި,ކ
+S,Herethere Island Resort,Herethere,R,81.4,22.D6,"0°36'59""S","73°13'27""E",ހެރެތެރެ,ސ
+ADh,Holiday Island,Dhiffushi,R,13.1,13.C8,"3°28'30""N","72°49'29""E",ދިއްފުށި,އދ
+GA,Huvadhumafushi Maldives,Funamauddaa,PR,10.9,20.B5,"0°32'01""N","73°11'24""E",ފުނަމައުއްޑާ,ގއ
+K,Huvafenfushi,Nakaiychaafushi,R,4.3,10.B5,"4°22'06""N","73°22'12""E",ނަކައިޗާފުށި,ކ
+N,Irufushi Beach & Spa Resort,Medhafushi,PR,20.8,5.D6,"5°44'39""N","73°19'26""E",މެދަފުށި,ނ
+HA,Island Hideaway at Dhonakulhi Maldives Spa Resort and Marina,Dhonakulhi,YM,33.0,1.D5,"6°50'35""N","73°03'05""E",ދޮނަކުޅި,ހއ
+K,Island of Bolifushi,Bolifushi,R,3.0>,11.C2,"4°05'45""N","73°24'05""E",ބޮލިފުށި,ކ
+K,Kandooma Tourist Resort,Kan'doomaafushi,R,14.8,11.D6,"3°54'12""N","73°28'24""E",ކަނޑޫމާފުށި,ކ
+B,Kihaadhuffaru Resort,Kihaadhuffaru,R,13.1,7.E3,"5°11'27""N","73°07'56""E",ކިހާދުއްފަރު,ބ
+Lh,Komandoo Maldive Island Resort,Komandoo,R,4.3,8.B3,"5°29'36""N","73°25'27""E",ކޮމަންޑޫ,ޅ
+ADh,Kudarah Island Resort,Kudarah,R,3.6,13.D6,"3°34'26""N","72°54'38""E",ކުޑަރަށް,އދ
+AA,Kuramathi Tourist Resort,Kuramathi,R,31.0,12.F2,"4°15'33""N","72°58'45""E",ކުރަމަތި,އއ
+Lh,Kuredhdhu Island Resort,Kurehdhoo,R,39.1,8.C2,"5°32'59""N","73°27'57""E",ކުރެއްދޫ,ޅ
+K,Kurumba Maldives,Vihamanaafushi,R,13.7,10.D7,"4°13'36""N","73°31'11""E",ވިހަމަނާފުށި,ކ
+K,Laguna Maldives,Velassaru,R,8.3,11.C2,"4°07'17""N","73°26'13""E",ވެލާއްސަރު,ކ
+ADh,Lily Beach Resort,Huvahendhoo,R,6.6,13.E5,"3°39'13""N","72°57'13""E",ހުވަހެންދޫ,އދ
+Sh,Maakanaa,Van'garu,PR,9.8,4.E6,"6°05'14""N","73°12'17""E",ވަންގަރު,ށ
+AA,Maayafushi Tourist Resort,Maayafushi,R,3.2,12.D5,"4°04'25""N","72°53'15""E",މާޔާފުށި,އއ
+ADh,Machchafushi Island Resort,Machchafushi,R,4.2,13.D6,"3°35'37""N","72°53'00""E",މައްޗަފުށި,އދ
+AA,Madoogali Resort,Madoogali,R,7.1,12.B5,"4°05'45""N","72°45'10""E",މަޑޫގަލި,އއ
+K,Makunudhoo Island,Makunudhoo,R,3.2,10.B3,"4°32'33""N","73°24'20""E",މަކުނުދޫ,ކ
+M,Medhufushi Island Resort,Medhufushi,R,10.3,15.E6,"2°53'10""N","73°34'32""E",މެދުފުށި,މ
+K,Meeru Island Resort,Meerufenfushi,R,33.5,10.F4,"4°27'13""N","73°43'00""E",މީރުފެންފުށި,ކ
+ADh,Mirihi Island Resort,Mirihi,R,3.5,13.B5,"3°37'09""N","72°46'49""E",މީރިހި,އދ
+ADh,Moofushi Island Resort,Moofushi,R,3.7,13.B1,"3°53'05""N","72°43'40""E",މޫފުށި,އދ
+K,Naladhu,Veligan'duhuraa,R,3.0>,11.D4,"3°58'17""N","73°30'23""E",ވެލިގަނޑުހުރާ,ކ
+K,Naladhu -waterbangalows,Boduhuraa,R,4.3,11.D5,"3°58'02""N","73°30'19""E",ބޮޑުހުރާ,ކ
+AA,Nika Island Resort,Kudafolhudhoo,R,5.1,12.B4,"4°10'52""N","72°46'01""E",ކުޑަފޮޅުދޫ,އއ
+K,Olhuveli Beach and Spa Resort,Olhuveli,R,6.2,11.D7,"3°51'01""N","73°27'18""E",އޮޅުވެލި,ކ
+Lh,"One and Only Kanuhuraa, Maldives",Kanuhuraa,R,14.5,8.D2,"5°31'57""N","73°30'23""E",ކަނުހުރާ,ޅ
+K,One&Only Maldives at Reethi Rah,Medhufinolhu,R,42.7,10.B4,"4°30'50""N","73°22'09""E",މެދުފިނޮޅު,ކ
+Lh,Palm Beach Island,Madhiriguraidhoo,R,24.8,8.D3,"5°28'09""N","73°33'36""E",މަދިރިގުރައިދޫ,ޅ
+K,Paradise Island Resort and Spa,Lankanfinolhu,R,23.9,10.D6,"4°17'06""N","73°33'13""E",ލަންކަންފިނޮޅު,ކ
+ADh,Ranveli Village,Vilin'gilivaru,R,3.0,13.E5,"3°37'08""N","72°57'18""E",ވިލިނގިލިވަރު,އދ
+F,Reethi Beach Resort,Fonimagoodhoo,R,10.4,7.F3,"5°15'17""N","73°09'48""E",ފޮނިމަގޫދޫ,ބ
+K,Rihiveli Beach Resort,Mahaana elhihuraa,R,4.2,11.C7,"3°48'43""N","73°24'41""E",މަހާނައެޅިހުރާ,ކ
+B,Royal Island Resort and Spa,Horubadhoo,R,18.9,7.D4,"5°09'47""N","73°03'12""E",ހޮރުބަދޫ,ބ
+B,Soneva Fushi Resort and Six Senses Spa,Kunfunadhoo,R,43.4,7.E4,"5°06'44""N","73°04'38""E",ކުންފުނަދޫ,ބ
+K,Soneva Gili Resort and Spa,Lankanfushi,R,8.6,10.D6,"4°17'41""N","73°33'29""E",ލަންކަންފުށި,ކ
+K,Summer Island Village,Ziyaaraiyfushi,R,5.0,10.B4,"4°31'59""N","73°22'20""E",ޒިޔާރަތްފުށި,ކ
+ADh,Sun Island Resort and Spa,Nalaguraidhoo,R,54.1,13.C7,"3°29'00""N","72°48'05""E",ނަލަގުރައިދޫ,އދ
+K,Taj Coral Reef Resort,Hen'badhoo,R,3.5,10.B4,"4°28'53""N","73°23'35""E",ހެންބަދޫ,ކ
+K,Taj Exotica and Spa Maldives,En'boodhoofinolhu,R,4.8,11.E2,"4°06'11""N","73°31'31""E",އެނބޫދޫފިނޮޅު,ކ
+HA,The Beach House at Manafaru Maldives,Manafaru,R,15.0,1.C3,"6°59'49""N","72°56'23""E",މަނަފަރު,ހއ
+K,Thulhaagiri Island Resort,Thulhaagiri,R,3.3,10.C6,"4°18'41""N","73°29'14""E",ތުޅާގިރި,ކ
+ADh,Thundufushi Island Resort,Thun'dufushi,R,4.0,13.B3,"3°47'10""N","72°43'51""E",ތުންޑުފުށި,އދ
+ADh,Twin Island Resort,Maafushivaru,R,3.0,13.D6,"3°36'28""N","72°54'01""E",މާފުށިވަރު,އދ
+K,Vadoo Island Resort,Vaadhoo,R,3.0>,11.D2,"4°07'26""N","73°27'26""E",ވާދޫ,ކ
+ADh,Vakarufalhi Island Resort,Vakarufalhi,R,5.2,13.D6,"3°34'42""N","72°54'07""E",ވަކަރުފަޅި,އދ
+AA,Velidhoo Island Resort,Velidhoo,R,9.2,12.C3,"4°11'41""N","72°49'06""E",ވެލިދޫ,އއ
+AA,Veligandu Island,Veligan'du,R,5.3,12.F2,"4°17'56""N","73°00'41""E",ވެލިގަނޑު,އއ
+ADh,Vilamendhoo Island Resort,Vilamendhoo,R,12.8,13.D5,"3°38'01""N","72°57'32""E",ވިލަމެންދޫ,އދ
+Dh,Vilu Reef Beach and Spa,Meedhuffushi,R,6.6,17.E1,"3°00'12""N","73°00'02""E",މީދުއްފުށި,ދ
+AA,W. Retreat and Spa Maldives,Fesdhoo,R,4.8,12.C6,"4°00'24""N","72°48'39""E",ފެސްދޫ,އއ
+ADh,White Sands Resort and Spa,Dhidhdhoofinolhu,R,16.0,13.D7,"3°29'54""N","72°53'46""E",ދިއްދޫފިނޮޅު,އދ

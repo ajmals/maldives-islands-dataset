@@ -36,19 +36,19 @@ maldives-islands-dataset/
 
 | Dataset | File | Year | Records | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Inhabited Islands Master** | [`inhabited_islands_master.csv`](inhabited_islands_master.csv) | **2026** | **188** | **Authoritative Inhabited Registry.** Islands strictly governed by Island and City Councils. Harmonized to 2026 LGA official spellings, with council names, council types, coordinates, and dual land areas. |
-| **Resorts Master** | [`resorts_master.csv`](resorts_master.csv) | **2026/2021** | **373** | **Dedicated Resorts Directory.** All operational tourist resorts (**177 verified operating** from Ministry of Tourism, Oct 2026) and proposed pipeline developments with trade names, room/bed counts, operators, and coordinates. |
-| **Uninhabited Islands Master** | [`uninhabited_islands_master.csv`](uninhabited_islands_master.csv) | **2021/2008** | **1,016** | **Uninhabited & Sandbanks Registry.** Agricultural leases, industrial islands, sandbanks, and reefs, including historically depopulated islands. |
-| **Unified Master Dataset** | [`maldives_islands_master.csv`](maldives_islands_master.csv) | **2026** | **1,577** | **All-in-One Master.** Complete flat master dataset combining the Official Atlas, MLSA OneMap, 2026 LGA Councils, and 2026 Ministry of Tourism operational data. |
+| **Inhabited Islands Master** | [`inhabited_islands_master.csv`](inhabited_islands_master.csv) | **2026** | **188** | **Authoritative Inhabited Registry.** Islands strictly governed by Island and City Councils. Harmonized to 2026 LGA official spellings, with council names, council types, capital status, land area, and Decimal Degree coordinates. |
+| **Resorts Master** | [`resorts_master.csv`](resorts_master.csv) | **2026/2021** | **373** | **Dedicated Resorts Directory.** All operational tourist resorts (**177 verified operating** from Ministry of Tourism, Oct 2026) and proposed pipeline developments with commercial trade names, operating status, land area, and Decimal Degree coordinates. |
+| **Uninhabited Islands Master** | [`uninhabited_islands_master.csv`](uninhabited_islands_master.csv) | **2021** | **1,016** | **Uninhabited & Sandbanks Registry.** Agricultural leases, industrial islands (e.g. Thilafushi), institutional islands, sandbanks, and reefs, with categories, land area, and Decimal Degree coordinates. |
+| **Unified Master Dataset** | [`maldives_islands_master.csv`](maldives_islands_master.csv) | **2026** | **1,577** | **All-in-One Master.** Complete flat master dataset combining MLSA OneMap, 2026 LGA Councils, and 2026 Ministry of Tourism operational data into a unified modern GIS schema. |
 
 ### Reference & Source Datasets (`reference/`)
 
 | Dataset | File | Year | Records | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **MoT Registered Resorts** | [`reference/mot_resorts_oct_2026.csv`](reference/mot_resorts_oct_2026.csv) | **2026 (Oct)** | **177** | Official registered operational facilities directory from the Ministry of Tourism. Cleaned to single-line RFC 4180 CSV standard with rooms, beds, operator, and owner information. |
+| **MoT Registered Resorts** | [`reference/mot_resorts_oct_2026.csv`](reference/mot_resorts_oct_2026.csv) | **2026 (Oct)** | **177** | Official registered operational facilities directory from the Ministry of Tourism. Filtered to geographical resort identifiers (`Name`, `Atoll`, `Island`, `State`) with contact and capacity details removed. |
 | **LGA Councils Directory** | [`reference/lga_councils_2026.csv`](reference/lga_councils_2026.csv) | **2026** | **183** | Official administrative list of all 183 Island and City Councils from the Local Government Authority (LGA). Stripped of personal data. |
 | **OneMap MLSA Dataset** | [`reference/onemap_islands_2021.csv`](reference/onemap_islands_2021.csv) | **2021** | **1,560** | Direct public cadastral GIS dataset from the Maldives Land and Survey Authority (MLSA) with official Land Feature Codes (`FCODE`). |
-| **Atlas Island Index** | [`reference/islands_index_2008.csv`](reference/islands_index_2008.csv) | **2008** | **1,037** | Complete gazetteer of all surveyed islands from the *Official Atlas of the Maldives* with map grid references (`Map_Ref`), Thaana script, and linked `FCODE`. |
+| **Atlas Island Index** | [`reference/islands_index_2008.csv`](reference/islands_index_2008.csv) | **2008** | **1,037** | Complete gazetteer of all surveyed islands from the *Official Atlas of the Maldives* with historical map grid references (`Map_Ref`), Thaana script, and linked `FCODE`. |
 | **Resorts Directory (Atlas)** | [`reference/resorts_by_trade_name.csv`](reference/resorts_by_trade_name.csv) | **2008** | **98** | Historic tourist resorts cataloged by commercial brand/trade name from the Official Atlas. |
 | **Atoll Names & Capitals** | [`reference/atoll_names.csv`](reference/atoll_names.csv) | **—** | **21** | Official atoll designations, English names, short names, administrative capitals, and Thaana script. |
 
@@ -56,7 +56,7 @@ maldives-islands-dataset/
 
 ## 1. Domain-Specific Master Datasets
 
-To make analysis straightforward without requiring heavy filtering, the master data is partitioned into three domain-specific tables and one unified master table.
+To make analysis straightforward without requiring heavy filtering, the master data is partitioned into three domain-specific tables and one unified master table. All master datasets are streamlined to modern GIS standards (Decimal Degrees, single high-accuracy land area in hectares, and canonical names), keeping historical 2008 physical book artifacts safely in `reference/`.
 
 ### A. Inhabited Islands Master (`inhabited_islands_master.csv`)
 * **Total Records:** **188 inhabited islands**
@@ -65,11 +65,11 @@ To make analysis straightforward without requiring heavy filtering, the master d
 * **Administrative Groupings:**
   * **City Councils:** Malé City (Malé, Villimalé, Hulhumalé), Addu City (Hithadhoo, Maradhoo, Maradhoo-Feydhoo, Feydhoo), Fuvahmulah City, Kulhudhuffushi City, and Thinadhoo City.
   * **Island Councils:** 176 individual island councils plus the two distinct Addu constituency councils (`S. Addu Hulhudhoo Council` and `S. Addu Meedhoo Council`).
-* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Council_Name`, `Council_Type`, `Is_Capital`, `Area_Ha_Atlas`, `Area_Ha_GIS`, `Map_Ref`, `Lat_DMS`, `Lon_DMS`, `Lat_DD`, `Lon_DD`, `Island_Name_Atlas`, `Island_Name_OneMap`.
+* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Council_Name`, `Council_Type`, `Is_Capital`, `Area_Ha`, `Lat_DD`, `Lon_DD`.
 
 ### B. Resorts Master (`resorts_master.csv`)
 * **Total Records:** **373 resort islands**
-  * **177 Operating Resorts:** Verified against the Ministry of Tourism (MoT) October 2026 registered facilities directory. Includes current trade name, operational status, room capacity, bed capacity, and operating company.
+  * **177 Operating Resorts:** Verified against the Ministry of Tourism (MoT) October 2026 registered facilities directory. Includes current trade name, operational status (`Operating`), and geographic coordinates.
   * **196 Proposed / Pipeline Developments:** Allocated tourism islands from OneMap GIS and ministry records under planning or construction.
 * **Columns Schema:**
   | Column | Type | Description | Example |
@@ -81,31 +81,19 @@ To make analysis straightforward without requiring heavy filtering, the master d
   | `Island_Dhivehi` | String | Island name in Dhivehi (Thaana script) | `ރަންގަލީފިނޮޅު` |
   | `Resort_Trade_Name` | String | Official commercial resort trade / brand name | `Conrad Maldives Rangali Island` |
   | `Operating_Status` | String | `Operating` or `Proposed / Pipeline` | `Operating`, `Proposed / Pipeline` |
-  | `Rooms` | Integer | Registered guest room capacity (MoT) | `176`, `125` |
-  | `Beds` | Integer | Registered guest bed capacity (MoT) | `352`, `250` |
-  | `Operator` | String | Operating company and registered office | `Maldives Property Holdings Pvt Ltd...` |
-  | `Category_Atlas` | String | Atlas category code (`R`, `PR`, `U`) | `R`, `PR` |
-  | `Category_OneMap` | String | MLSA functional categorization | `Tourism Island` |
-  | `Sector` | String | Economic sector | `Tourism` |
-  | `Usage` | String | Operational usage | `Resort` |
-  | `PrimAgency` | String | Responsible ministry | `MoT` |
-  | `Area_Ha_Atlas` | String | Historical surveyed land area in hectares | `17.2`, `<3.0` |
-  | `Area_Ha_GIS` | Float | High-precision polygon land area in hectares (MLSA GIS) | `14.84319` |
-  | `Map_Ref` | String | Map grid coordinate reference from Atlas (1 to 22) | `10.E5` |
-  | `Lat_DMS`, `Lon_DMS` | String | Latitude / Longitude in DMS format | `4° 22' 39" N`, `73° 39' 48" E` |
+  | `Area_Ha` | Float | High-precision polygon land area in hectares (MLSA GIS) | `14.84319` |
   | `Lat_DD`, `Lon_DD` | Float | Coordinates in WGS84 Decimal Degrees | `4.377503`, `73.663571` |
-  | `Island_Name_Atlas` | String | Designation as printed in the Official Atlas | `Rangaleefinolhu (R)` |
-  | `Island_Name_OneMap` | String | Designation as recorded in OneMap MLSA | `Rangaleefinolhu` |
 
 ### C. Uninhabited Islands Master (`uninhabited_islands_master.csv`)
 * **Total Records:** **1,016 islands and geographic features**
 * **Scope:** Uninhabited islands, agricultural leases (`Varuva`), industrial islands (e.g. Thilafushi, Gulhifalhu, Maafilaafushi), institutional islands, sandbanks, and reefs.
-* **Historical Transitions:** Includes islands that were historically inhabited in 2008 but have since been depopulated or relocated (e.g. HDh. Faridhoo, HDh. Maavaidhoo, Dh. Vaanee, L. Gaadhoo, GA. Dhiyadhoo). Islands verified as operating resorts (e.g. V. Vashugiri, Lh. Fushifaru) have been transitioned to `resorts_master.csv`.
-* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Category_Atlas`, `Category_OneMap`, `Sector`, `Usage`, `PrimAgency`, `Is_Unnamed`, `Area_Ha_Atlas`, `Area_Ha_GIS`, `Map_Ref`, `Lat_DMS`, `Lon_DMS`, `Lat_DD`, `Lon_DD`, `Island_Name_Atlas`, `Island_Name_OneMap`.
+* **Historical Transitions:** Islands verified as operating resorts (e.g. V. Vashugiri, Lh. Fushifaru) have been transitioned to `resorts_master.csv`.
+* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Category`, `Area_Ha`, `Lat_DD`, `Lon_DD`.
 
 ### D. Unified Master Dataset (`maldives_islands_master.csv`)
 * **Total Records:** **1,577 records**
-* Enriched flat dataset combining all categories above with cross-references, dual land areas, GIS coordinates, administrative council metadata, and Ministry of Tourism facility data.
+* Enriched flat dataset combining all categories above with cross-references, modern GIS land areas, Decimal Degree coordinates, administrative council metadata, and Ministry of Tourism operational resort status.
+* **Columns:** `FCODE`, `Atl`, `Atoll_Name`, `Island_Name`, `Island_Dhivehi`, `Category`, `Council_Name`, `Council_Type`, `Resort_Trade_Name`, `Operating_Status`, `Is_Capital`, `Area_Ha`, `Lat_DD`, `Lon_DD`.
 
 ---
 
@@ -116,9 +104,8 @@ Downloaded directly from the **Ministry of Tourism Registered Facilities Portal*
 * **Total Records:** **177 operational tourist resorts**
 * **Data Sanitization & RFC 4180 Compliance:**
   * Cleaned broken quotes and unescaped quote delimiters present in the portal's raw export.
-  * Converted internal address line breaks (`\n`) to clean, single-line comma formatting so every record sits strictly on one row.
-  * Formatted phone number multi-lines into clean slash-delimited entries (`/`).
-* **Fields:** `#`, `Name`, `Atoll`, `Island`, `Rooms`, `Beds`, `Phone`, `Fax`, `Email`, `Resort Phone`, `Resort Fax`, `Resort Email`, `Operator`, `Owner/Lesse`, `Management`, `State`.
+  * Dropped non-geographic operational and contact columns (`Rooms`, `Beds`, `Phone`, `Fax`, `Email`, `Resort Phone`, `Resort Fax`, `Resort Email`, `Operator`, `Owner/Lesse`, `Management`) to focus strictly on geographic and island identity.
+* **Fields:** `Name`, `Atoll`, `Island`, `State`.
 
 ---
 
@@ -130,7 +117,7 @@ Extracted and cleaned from the **2026 Local Government Authority (LGA)** council
   * **5 City Councils:** Malé City, Addu City, Fuvammulah City, Kulhudhuffushi City, Thinadhoo City.
   * **178 Island Councils:** Standard administrative atoll councils + Addu constituency councils.
 * **Privacy & Cleanliness:** Councilor personal data (names, contact numbers, political party affiliations) has been completely removed to preserve privacy and geographic utility.
-* **Fields:** `Atoll`, `Council_Name`, `Council_Type`, `Island_Name`, `Source_URL`, `Updated_Year`.
+* **Fields:** `Atoll`, `Council_Name`, `Council_Type`, `Island_Name`.
 
 ---
 
@@ -242,7 +229,7 @@ This repository synthesizes data from four primary official government publicati
 
 1. **Ministry of Tourism, Republic of Maldives (October 2026)**
    * **Portal:** [https://www.tourism.gov.mv/en/registered/facilities/filter-t1](https://www.tourism.gov.mv/en/registered/facilities/filter-t1)
-   * **Scope:** 2026 official register of all 177 operating tourist resorts, operational capacities (rooms and beds), operating companies, and registered facilities.
+   * **Scope:** 2026 official register of all 177 operating tourist resorts, commercial trade names, operating status, and registered island facilities.
 
 2. **Local Government Authority (LGA) Maldives (2026)**
    * **Portal:** [https://www.lga.gov.mv/en/councils](https://www.lga.gov.mv/en/councils)
